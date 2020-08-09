@@ -49,7 +49,7 @@ def generate_candidate(fobj, side_obj_1, bounds):
   ```
   
   * The De Algorithm modified to evaluate the new candidate's fitness taking both main and side objective functions into account. 
-  Check out the line in the main code (DE_Algorithm_Multi_Objective_Function\codes\Differential Evolution Algorithm Modified.ipynb).
+  Check out the line in the main code (```DE_Algorithm_Multi_Objective_Function\codes\Differential Evolution Algorithm Modified.ipynb```).
   ```python 
   fitness = np.asarray([fobj(ind) for ind in pop_denorm])
   #Sub_Objective function are evaluated at the following.
